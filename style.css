@@ -1,0 +1,81 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: rgb(255, 196, 0);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.navbar__links{
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar__link{
+    text-decoration: none;
+    padding:0 5px;
+    margin: 0 5px;
+}
+
+#navbar__logo{
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.hero-container{
+    background-color: rgb(255, 196, 0);
+    height: 95vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 4rem;
+}
+
+.hero_title{
+    font-size: 3.8rem
+}
+
+.hero_desc{
+    font-size: 1.2rem;
+}
+
+.hero_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 50px;
+    background-color: black;
+    transition: all 0.5s ease;
+}
+
+.hero_button:hover{
+    background-color: antiquewhite;
+    cursor: grab;
+}
+
+.buttonText:hover{
+    color: black;
+}
+
+.buttonText{
+    color: rgb(255, 196, 0);
+}
+
